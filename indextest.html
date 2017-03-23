@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title></title>
+    <link href="style/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<button  type="button"  class="btn  btn-primary  btn-lg"   data-toggle="modal"  data-target=".bs-example-modal-lg">
+    弹出大模态框
+</button>
+<div  class="modal  fade  bs-example-modal-lg"  id="mymodal"  tabindex="-1"  role="dialog"  aria-labelledby="myLargeModalLabel">
+    <div  class="modal-dialog  modal-lg">--大的模态框
+        <div  class="modal-content">
+            <div  class="modal-header">
+                <button  type="button"  class="close"  data-dismiss="modal"  aria-label="close">
+                    <span  aria-hidden="true">&times;</span>
+                </button>
+                <h4  class="modal-title">Modal  title</h4>
+            </div>
+            <div  class="modal-body">
+                <p>one  fine  body &hellip;</p>
+            </div>
+            <div  class="modal-footer">
+                <button  type="button"  class="btn  btn-default"  data-dismiss="modal">close</button>
+                <button  type="button"  class="btn  btn-primary">save  changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 改变模态框的大小添加类modal-sm即可 -->
+<button  type="button"  class="btn  btn-primary  btn-lg"   data-toggle="modal"  data-target=".bs-example-modal-sm">
+    弹出小模态框
+</button>
+<div  class="modal  fade  bs-example-modal-sm"  id="mymodal"   tabindex="-1"  role="dialog"    aria-labelledby="myLargeModalLabel">
+    <div  class="modal-dialog  modal-sm"> ---小模态框
+        <div  class="modal-content">
+            <div  class="modal-header">
+                <button  type="button"  class="close"  data-dismiss="modal"  aria-label="close">
+                    <span  aria-hidden="true">&times;</span>
+                </button>
+                <h4  class="modal-title">Modal  title</h4>
+            </div>
+            <div  class="modal-body">
+                <p>one  fine  body &hellip;</p>
+            </div>
+            <div  class="modal-footer">
+                <button  type="button"  class="btn  btn-default"  data-dismiss="modal">close</button>
+                <button  type="button"  class="btn  btn-primary">save  changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  禁止动画效果，删掉fade即可 -->
+
+<script type="text/javascript">
+    $("#mymodal").modal("show"); ---用这句代码才能使插件生效
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.left_nav_bar{
+    /*height:100px;*/
+    /*width: 30px;*/
+    background-color: #b2dba1;
+    position: fixed;
+    left: 10px;
+    top:50%;
+    z-index:1;
+}
+
+.left_nav_info{
+    /*width: 200px;*/
+    background-color: #2b669a;
+    position: fixed;
+    left: 50px;
+    top:50%;
+    z-index:1;
+}

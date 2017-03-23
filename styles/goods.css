@@ -1,0 +1,23 @@
+ol, ul{
+    /*消除点*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+dl{clear:left;}
+dt,dd{float:left;}
+dd li{
+    float: left;
+    margin-right:6px;
+    border: 1px solid #AAA;
+    //使鼠标变成小手
+    cursor: pointer;
+}
+
+dt{
+    border: 1px solid #AAA;
+}
+
+.good_category{
+    background-color: #b2dba1;
+}

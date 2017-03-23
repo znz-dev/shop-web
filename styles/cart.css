@@ -1,0 +1,17 @@
+.cart_bar{
+    /*height:50px;*/
+    /*width: 50px;*/
+    background-color: #b2dba1;
+    position: fixed;
+    right: 10px;
+    bottom:100px;
+    z-index:1;
+}
+.cart_info{
+    width: 200px;
+    background-color: #2b669a;
+    position: fixed;
+    right: 60px;
+    bottom:100px;
+    z-index:1;
+}

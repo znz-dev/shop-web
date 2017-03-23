@@ -1,0 +1,12 @@
+@import "cart.css";
+@import "left-nav.css";
+
+[class*="col-"]{
+    /*padding-top: 15px;*/
+    /*padding-bottom: 15px;*/
+    border: 1px solid #ddd;
+}
+
+.head_search{
+    margin-top: 80px;
+}

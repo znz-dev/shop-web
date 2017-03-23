@@ -1,0 +1,23 @@
+.header-inner {
+    width: 100%;
+    min-height: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    background: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.header-inner {
+    text-align: center;
+}
+
+.header-inner img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 32px;
+    vertical-align: middle;
+}
